@@ -4,7 +4,7 @@ import {
   creator,
   web,
   javascript,
-  // typescript,
+  typescript,
   html,
   css,
   reactjs,
@@ -14,12 +14,16 @@ import {
   mongodb,
   git,
   // figma,
-  // docker,
+  docker,
   can,
+  radoms,
+  threejs,
   linkedin,
   netflix,
   blog,
-  threejs,
+  apple,
+  radomsWeb,
+  newstapri,
 } from "../assets";
 
 export const navLinks = [
@@ -69,10 +73,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -105,13 +109,26 @@ const technologies = [
   //   name: "figma",
   //   icon: figma,
   // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "docker",
+    icon: docker,
+  },
 ];
 
 const experiences = [
+  {
+    title: "Full Stack Developer",
+    company_name: "Radoms Digital Pvt Ltd.",
+    icon: radoms,
+    iconBg: "#ffffff",
+    date: "May 2024 - Present",
+    points: [
+      "Built and maintained company website (radomsdigital.com), showcasing services and tech capabilities of the firm.",
+      "Developed features for newstapri.com, a news and quiz platform where users can participate in quizzes, win prizes, and stay updated with current affairs.",
+      "Worked on an e-commerce platform, implementing both the admin dashboard and user-facing frontend, along with backend integration using Node.js and MongoDB.",
+      "Contributed to LitConnect, a platform connecting authors and agents, by developing backend APIs to enable seamless collaboration.",
+    ],
+  },
   {
     title: "Frontend Developer intern",
     company_name: "Can Technologies",
@@ -154,6 +171,106 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Newstapri - news portal",
+    description:
+      "Newstapri is a web app where users can read current news and play fun quizzes to win prizes. It’s designed to make learning and staying updated more enjoyable.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: newstapri,
+    source_code_link: "#",
+    live_demo: "https://newstapri.com",
+  },
+  {
+    name: "Radoms Digital",
+    description:
+      "Radoms Digital is the official website of a software development company. It showcases the company’s services, projects, and helps clients get in touch easily.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: radomsWeb,
+    source_code_link: "#",
+    live_demo: "https://radomsdigital.com",
+  },
+  {
+    name: "LitConnect",
+    description:
+      "LitConnect is an innovative platform designed to connect authors, publishers, and readers through engaging virtual book tours, promotions, and literary events.",
+    tags: [
+      {
+        name: "NodeJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Rest Apis",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: radomsWeb,
+    source_code_link: "#",
+    live_demo: "https://radomsdigital.com",
+  },
+  {
+    name: "Apple - ThreeJS",
+    description:
+      "I built a landing page for the Apple iPhone 15 using React and 3D animations with Three.js. The page features smooth interactions and a modern, visually engaging design to showcase the product.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: apple,
+    source_code_link: "https://github.com/AshishPal8/apple_clone",
+    live_demo: "https://ashish-apple.netlify.app/",
+  },
   {
     name: "Linkedin Clone",
     description:

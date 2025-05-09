@@ -23,10 +23,14 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import can from "./company/can.jfif";
+import radoms from "./company/radoms.png";
 
 import linkedin from "./linkedin.jpg";
 import netflix from "./netflix.png";
 import blog from "./blog.png";
+import radomsWeb from "./projects/radoms-web.png";
+import newstapri from "./projects/newstapri.png";
+import apple from "./projects/apple.png";
 
 export {
   logo,
@@ -52,7 +56,11 @@ export {
   typescript,
   threejs,
   can,
+  radoms,
   linkedin,
   netflix,
   blog,
+  apple,
+  radomsWeb,
+  newstapri,
 };
